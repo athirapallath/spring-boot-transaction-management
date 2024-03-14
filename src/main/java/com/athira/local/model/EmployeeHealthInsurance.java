@@ -1,4 +1,4 @@
-package com.athiralocal.model;
+package com.athira.local.model;
 
 public class EmployeeHealthInsurance {
 	

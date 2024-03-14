@@ -1,4 +1,4 @@
-package com.athiralocal.dao.impl;
+package com.athira.local.dao.impl;
 
 import javax.annotation.PostConstruct;
 import javax.sql.DataSource;
@@ -7,8 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.support.JdbcDaoSupport;
 import org.springframework.stereotype.Repository;
 
-import com.athiralocal.dao.EmployeeDao;
-import com.athiralocal.model.Employee;
+import com.athira.local.dao.EmployeeDao;
+import com.athira.local.model.Employee;
 
 @Repository
 public class EmployeeDaoImpl extends JdbcDaoSupport implements EmployeeDao {

@@ -1,6 +1,6 @@
-package com.athiralocal.service;
+package com.athira.local.service;
 
-import com.athiralocal.model.Employee;
+import com.athira.local.model.Employee;
 
 public interface EmployeeService {
 	void insertEmployee(Employee emp);

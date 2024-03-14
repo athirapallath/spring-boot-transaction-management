@@ -1,6 +1,6 @@
-package com.athiralocal.dao;
+package com.athira.local.dao;
 
-import com.athiralocal.model.EmployeeHealthInsurance;
+import com.athira.local.model.EmployeeHealthInsurance;
 
 public interface HealthInsuranceDao {
 	void registerEmployeeHealthInsurance(EmployeeHealthInsurance employeeHealthInsurance);

@@ -1,12 +1,12 @@
-package com.athiralocal;
+package com.athira.local;
 
+import com.athira.local.model.EmployeeHealthInsurance;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 
-import com.athiralocal.model.Employee;
-import com.athiralocal.model.EmployeeHealthInsurance;
-import com.athiralocal.service.OrganizationService;
+import com.athira.local.model.Employee;
+import com.athira.local.service.OrganizationService;
 
 @SpringBootApplication
 public class SpringBootJdbcApplication {

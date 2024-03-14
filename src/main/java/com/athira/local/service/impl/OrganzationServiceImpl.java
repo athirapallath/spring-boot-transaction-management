@@ -1,14 +1,14 @@
-package com.athiralocal.service.impl;
+package com.athira.local.service.impl;
 
+import com.athira.local.model.EmployeeHealthInsurance;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.athiralocal.model.Employee;
-import com.athiralocal.model.EmployeeHealthInsurance;
-import com.athiralocal.service.EmployeeService;
-import com.athiralocal.service.HealthInsuranceService;
-import com.athiralocal.service.OrganizationService;
+import com.athira.local.model.Employee;
+import com.athira.local.service.EmployeeService;
+import com.athira.local.service.HealthInsuranceService;
+import com.athira.local.service.OrganizationService;
 
 @Service
 public class OrganzationServiceImpl implements OrganizationService {

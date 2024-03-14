@@ -1,11 +1,11 @@
-package com.athiralocal.service.impl;
+package com.athira.local.service.impl;
 
+import com.athira.local.dao.EmployeeDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.athiralocal.dao.EmployeeDao;
-import com.athiralocal.model.Employee;
-import com.athiralocal.service.EmployeeService;
+import com.athira.local.model.Employee;
+import com.athira.local.service.EmployeeService;
 
 @Service
 public class EmployeeServiceImpl implements EmployeeService {

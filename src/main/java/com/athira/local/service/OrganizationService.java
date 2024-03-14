@@ -1,7 +1,7 @@
-package com.athiralocal.service;
+package com.athira.local.service;
 
-import com.athiralocal.model.Employee;
-import com.athiralocal.model.EmployeeHealthInsurance;
+import com.athira.local.model.EmployeeHealthInsurance;
+import com.athira.local.model.Employee;
 
 public interface OrganizationService {
 

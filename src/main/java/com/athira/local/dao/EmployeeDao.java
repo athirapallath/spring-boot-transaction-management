@@ -1,6 +1,6 @@
-package com.athiralocal.dao;
+package com.athira.local.dao;
 
-import com.athiralocal.model.Employee;
+import com.athira.local.model.Employee;
 
 public interface EmployeeDao {
 	void insertEmployee(Employee cus);

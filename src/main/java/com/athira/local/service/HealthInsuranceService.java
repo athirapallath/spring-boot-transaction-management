@@ -1,6 +1,6 @@
-package com.athiralocal.service;
+package com.athira.local.service;
 
-import com.athiralocal.model.EmployeeHealthInsurance;
+import com.athira.local.model.EmployeeHealthInsurance;
 
 public interface HealthInsuranceService {
 	void registerEmployeeHealthInsurance(EmployeeHealthInsurance employeeHealthInsurance);

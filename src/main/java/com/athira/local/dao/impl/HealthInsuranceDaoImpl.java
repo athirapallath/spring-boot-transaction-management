@@ -1,14 +1,14 @@
-package com.athiralocal.dao.impl;
+package com.athira.local.dao.impl;
 
 import javax.annotation.PostConstruct;
 import javax.sql.DataSource;
 
+import com.athira.local.model.EmployeeHealthInsurance;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.support.JdbcDaoSupport;
 import org.springframework.stereotype.Repository;
 
-import com.athiralocal.dao.HealthInsuranceDao;
-import com.athiralocal.model.EmployeeHealthInsurance;
+import com.athira.local.dao.HealthInsuranceDao;
 
 @Repository
 public class HealthInsuranceDaoImpl extends JdbcDaoSupport implements HealthInsuranceDao {

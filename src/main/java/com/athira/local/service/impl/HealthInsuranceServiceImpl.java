@@ -1,11 +1,11 @@
-package com.athiralocal.service.impl;
+package com.athira.local.service.impl;
 
+import com.athira.local.dao.HealthInsuranceDao;
+import com.athira.local.model.EmployeeHealthInsurance;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.athiralocal.dao.HealthInsuranceDao;
-import com.athiralocal.model.EmployeeHealthInsurance;
-import com.athiralocal.service.HealthInsuranceService;
+import com.athira.local.service.HealthInsuranceService;
 
 @Service
 public class HealthInsuranceServiceImpl implements HealthInsuranceService {
